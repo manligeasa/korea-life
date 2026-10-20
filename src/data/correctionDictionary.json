@@ -1,0 +1,185 @@
+{
+  "version": "1.0.0",
+  "description": "한국생활 보석상자 상황별 예상 답변 및 교정 사전 (Zero-AI Rule-based Dictionary)",
+  "scenarios": {
+    "rites-funeral": {
+      "scenarioNameKo": "장례식 조문 예절",
+      "scenarioNameEn": "Funeral Condolences",
+      "expectedAnswers": [
+        {
+          "step": 1,
+          "targetPhrase": "삼가 고인의 명복을 빕니다.",
+          "romanization": "Sam-ga go-in-ui myeong-bok-eul bim-ni-da.",
+          "positiveKeywords": ["삼가", "고인", "명복", "빕니다", "고인의", "명복을"],
+          "compliment": "🎉 정중하고 품격 있는 최고의 조문 인사입니다! 유가족에게 깊은 위로가 온전히 전달되었습니다.",
+          "complimentTranslations": {
+            "en": "Perfect and deeply respectful condolence. Your sincerity brings immense comfort to the grieving family.",
+            "vi": "Lời chia buồn vô cùng trang trọng và đúng mực! Gia quyến sẽ cảm nhận được trọn vẹn sự an ủi chân thành.",
+            "zh": "非常庄重得体的吊唁慰问！真挚的心意已完全传达给逝者家属。",
+            "ja": "大変丁寧で格式の高いお悔やみの言葉です。ご遺族の心に深い慰めが届きました。"
+          }
+        },
+        {
+          "step": 2,
+          "targetPhrase": "얼마나 상심이 크십니까. 힘내세요.",
+          "romanization": "Eol-ma-na sang-sim-i keu-sip-ni-kka. Him-nae-se-yo.",
+          "positiveKeywords": ["상심", "힘내세요", "얼마나", "건강", "기운", "상심이"],
+          "compliment": "👏 유가족의 아픔을 공감하고 힘을 북돋아 주는 따뜻하고 사려 깊은 위로입니다.",
+          "complimentTranslations": {
+            "en": "Warm and thoughtful words showing genuine empathy for the family's immense sorrow.",
+            "vi": "Lời an ủi ấm áp và tinh tế, thấu hiểu nỗi đau và tiếp thêm sức mạnh cho gia quyến.",
+            "zh": "充满温情与同理心的抚慰，能让承受巨大悲痛的家属感受到力量。",
+            "ja": "ご遺族の悲しみに寄り添い、力を与える温かい思いやりのお言葉です。"
+          }
+        }
+      ],
+      "tabooKeywords": [
+        {
+          "words": ["축하", "축하해요", "축하드립니다", "축하합니다", "경사", "기뻐", "좋겠다", "신나", "생일"],
+          "warningType": "critical_taboo",
+          "feedbackKo": "⚠️ [엄격한 결례 주의] 장례식장은 고인을 떠나보내고 유가족이 깊이 슬퍼하는 자리입니다. '축하'나 '기쁨'을 나타내는 단어는 절대 금기어입니다! 고인의 영면을 비는 '삼가 고인의 명복을 빕니다'라고 말씀해 주세요.",
+          "feedbackEn": "⚠️ [Strict Taboo Alert] A funeral is a place of profound sorrow. Words expressing congratulations or joy are strictly forbidden! Please say '삼가 고인의 명복을 빕니다' (I pray for the repose of the deceased).",
+          "feedbackVi": "⚠️ [Cảnh báo cấm kỵ nghiêm trọng] Đám tang là nơi đau buồn tiễn biệt người đã khuất. Tuyệt đối không dùng từ 'chúc mừng' hay thể hiện niềm vui! Hãy nói '삼가 고인의 명복을 빕니다' (Xin thành kính phân ưu).",
+          "feedbackZh": "⚠️ [严厉禁忌警告] 白事灵堂是沉痛哀悼的场所，严禁出现'祝贺'、'恭喜'等欢快字眼！请务必使用'삼가 고인의 명복을 빕니다'（谨向逝者表示沉痛哀悼，愿逝者安息）。"
+        },
+        {
+          "words": ["안녕하세요", "안녕", "반가워", "반갑습니다", "오랜만이야"],
+          "warningType": "etiquette_violation",
+          "feedbackKo": "⚠️ [인사 예절 주의] 장례식장에서는 상주에게 '안녕하세요'나 '반갑습니다'라고 소리 내어 인사하지 않는 것이 한국의 전통 예절입니다. 고개 숙여 묵례한 후 '얼마나 상심이 크십니까'라고 조용히 위로해 주세요.",
+          "feedbackEn": "⚠️ [Greeting Etiquette Alert] In Korean tradition, never greet the chief mourner with 'Hello' or 'Nice to see you'. Simply bow silently and express quiet condolences.",
+          "feedbackVi": "⚠️ [Lưu ý chào hỏi] Ở đám tang Hàn Quốc, không được chào gia quyến bằng 'Xin chào' hay 'Rất vui được gặp'. Hãy cúi đầu im lặng và nói lời chia buồn nhỏ nhẹ.",
+          "feedbackZh": "⚠️ [打招呼礼仪提示] 韩国白事传统中不可向家属大声打招呼说'你好'或'很高兴见到你'。应肃穆低头鞠躬，低声表达慰问。"
+        },
+        {
+          "words": ["건배", "짠", "원샷", "위하여"],
+          "warningType": "dining_etiquette",
+          "feedbackKo": "⚠️ [식사실 예절 주의] 장례식장 식사실(접객실)에서 술이나 음료를 마실 때 잔을 부딪치며 '건배'를 외치는 것은 유가족에게 큰 결례입니다. 잔을 부딪치지 않고 조용히 마시는 것이 예의입니다.",
+          "feedbackEn": "⚠️ [Dining Alert] Never clink glasses or yell 'Cheers' (Geonbae) at a funeral meal. Drink quietly without clinking.",
+          "feedbackVi": "⚠️ [Lưu ý ăn uống] Tuyệt đối không cụng ly hay hô 'Chúc mừng/Cạn ly' tại phòng ăn đám tang. Hãy uống nhẹ nhàng không va chạm ly.",
+          "feedbackZh": "⚠️ [用餐禁忌提示] 在殡仪馆用餐处饮酒饮料时切忌碰杯高呼'干杯'，应静默饮用以示庄重。"
+        }
+      ]
+    },
+    "rites-wedding": {
+      "scenarioNameKo": "결혼식 축의금 & 축하 예절",
+      "scenarioNameEn": "Wedding Congratulations",
+      "expectedAnswers": [
+        {
+          "step": 1,
+          "targetPhrase": "신랑 회사 동료입니다. 결혼을 진심으로 축하드립니다!",
+          "romanization": "Sin-rang hoe-sa dong-ryo-im-ni-da. Gyeol-hon-eul jin-sim-eu-ro chuk-ha-deu-rim-ni-da!",
+          "positiveKeywords": ["신랑", "신부", "동료", "친구", "결혼", "축하", "축하드립니다", "진심으로"],
+          "compliment": "🎉 소속을 명확히 밝히고 새 출발을 진심으로 축복하는 멋지고 센스 있는 축하 인사입니다!",
+          "complimentTranslations": {
+            "en": "Polite and articulate greeting! Clearly stating your relation and sharing warm blessings is wonderful.",
+            "vi": "Lời chào vô cùng lịch thiệp và tinh tế! Giới thiệu rõ mối quan hệ và chúc phúc chân thành cho cô dâu chú rể.",
+            "zh": "非常得体有礼的祝贺！清楚表明同僚身份并送上真挚新婚祝福，大方得体。",
+            "ja": "関係性を明確に伝え、心からお祝いを述べる大変気持ちの良い挨拶です！"
+          }
+        },
+        {
+          "step": 2,
+          "targetPhrase": "식권 한 장 부탁드립니다. 행복하게 잘 사세요!",
+          "romanization": "Sik-gwon han jang bu-tak-deu-rim-ni-da. Haeng-bok-ha-ge jal sa-se-yo!",
+          "positiveKeywords": ["식권", "한 장", "두 장", "행복하게", "잘 사세요", "부탁드립니다"],
+          "compliment": "👏 식권 요청과 함께 신랑 신부의 행복한 결혼 생활을 기원하는 따뜻한 덕담이 돋보입니다.",
+          "complimentTranslations": {
+            "en": "Smooth and polite! Requesting your meal ticket while wishing the newlyweds lasting happiness.",
+            "vi": "Khéo léo xin vé ăn tiệc kết hợp lời chúc phúc trăm năm hạnh phúc cho đôi bạn trẻ.",
+            "zh": "礼貌领取餐券的同时表达美好生活祝愿，沟通非常流畅自然。",
+            "ja": "食事券をお願いしながら新郎新婦の幸せを願う温かいお言葉が素敵です。"
+          }
+        }
+      ],
+      "tabooKeywords": [
+        {
+          "words": ["삼가", "명복", "조문", "장례", "슬퍼", "부의금", "조의금", "사망"],
+          "warningType": "critical_taboo",
+          "feedbackKo": "⚠️ [상황 착오 주의] 결혼식은 인생 최고의 축제이자 경사입니다! 장례식에서 쓰는 '명복', '삼가', '부의금' 같은 단어는 절대 사용하시면 안 됩니다. '결혼을 진심으로 축하드립니다'라고 축복해 주세요.",
+          "feedbackEn": "⚠️ [Wrong Context Alert] A wedding is a joyous celebration! Never use mourning words like 'condolences' or 'funeral'. Please say '결혼을 진심으로 축하드립니다' (Happy wedding).",
+          "feedbackVi": "⚠️ [Nhầm lẫn hoàn cảnh] Đám cưới là ngày vui trọng đại! Tuyệt đối không dùng các từ đám tang như 'chia buồn', 'an nghỉ'. Hãy nói '결혼을 진심으로 축하드립니다' (Chúc mừng hạnh phúc).",
+          "feedbackZh": "⚠️ [场合严重用词不当] 婚礼是人生大喜之日，严禁使用白事悼词如'节哀'、'悼念'等。请祝愿'결혼을 진심으로 축하드립니다'（祝新婚快乐）！"
+        },
+        {
+          "words": ["이혼", "헤어져", "아깝다", "왜 결혼해", "후회", "바람"],
+          "warningType": "inappropriate_joke",
+          "feedbackKo": "⚠️ [부적절한 농담 주의] 결혼식장에서는 장난으로라도 '이혼'이나 '아깝다' 같은 부정적인 표현을 하면 안 됩니다. 두 사람의 영원한 사랑을 응원하는 덕담을 건네주세요.",
+          "feedbackEn": "⚠️ [Inappropriate Remarks] Never make jokes about divorce or regret at weddings. Always wish lasting happiness.",
+          "feedbackVi": "⚠️ [Tránh đùa cợt khiếm nhã] Không được nói đùa về chuyện ly hôn hay hối tiếc trong đám cưới. Hãy luôn chúc đôi uyên ương trăm năm hòa hợp.",
+          "feedbackZh": "⚠️ [严禁不吉利玩笑] 婚礼现场切忌开'离婚'、'后悔'等消极玩笑，请给予百年好合的吉祥祝福。"
+        }
+      ]
+    },
+    "rites-dol": {
+      "scenarioNameKo": "첫돌(돌잔치) 축하 예절",
+      "scenarioNameEn": "First Birthday Etiquette",
+      "expectedAnswers": [
+        {
+          "step": 1,
+          "targetPhrase": "첫돌을 진심으로 축하합니다! 건강하고 지혜롭게 자라렴.",
+          "romanization": "Cheot-dol-eul jin-sim-eu-ro chuk-ha-ham-ni-da! Geon-gang-ha-go ji-hye-rop-ge ja-ra-ryeom.",
+          "positiveKeywords": ["첫돌", "축하합니다", "건강하고", "자라렴", "생일", "지혜", "예쁘다"],
+          "compliment": "🎉 아기의 건강과 총명함을 기원하는 최고의 돌잔치 축하 덕담입니다! 부모님도 크게 감동할 거예요.",
+          "complimentTranslations": {
+            "en": "Wonderful first birthday blessing! Wishing the child vibrant health and wisdom warms the parents' hearts.",
+            "vi": "Lời chúc thôi nôi tuyệt vời nhất! Cầu chúc bé khỏe mạnh và thông minh khiến cha mẹ vô cùng cảm động.",
+            "zh": "祝愿宝宝健康聪慧的最佳周岁祝词！父母听到一定会备受感动。",
+            "ja": "赤ちゃんの健康と聡明さを願う最高の誕生日メッセージです！親御さんも喜ばれます。"
+          }
+        }
+      ],
+      "tabooKeywords": [
+        {
+          "words": ["삼가", "명복", "장례", "아프다", "사망"],
+          "warningType": "critical_taboo",
+          "feedbackKo": "⚠️ [금기어 주의] 아기의 첫돌 잔치는 무병장수와 번영을 기원하는 날입니다. 불길하거나 슬픈 단어 대신 '건강하고 예쁘게 자라렴'이라고 축복해 주세요.",
+          "feedbackEn": "⚠️ [Taboo Alert] Doljanchi celebrates the baby's health and future longevity. Use positive blessings of health and joy.",
+          "feedbackVi": "⚠️ [Lưu ý cấm kỵ] Tiệc thôi nôi chúc phúc cho bé mạnh khỏe sống lâu. Hãy dành những lời chúc tốt lành nhất.",
+          "feedbackZh": "⚠️ [禁忌提示] 周岁宴是祈愿宝宝健康长寿的吉日，请多说吉祥祝词如健康成长。"
+        }
+      ]
+    },
+    "conv-restaurant": {
+      "scenarioNameKo": "식당 주문 & 반찬 리필",
+      "scenarioNameEn": "Restaurant Ordering",
+      "expectedAnswers": [
+        {
+          "step": 1,
+          "targetPhrase": "두 명이에요. 비빔밥 하나랑 된장찌개 하나 주세요.",
+          "romanization": "Du myeong-i-e-yo. Bi-bim-bap ha-na-rang doen-jang-jji-gae ha-na ju-se-yo.",
+          "positiveKeywords": ["두 명", "비빔밥", "된장찌개", "주세요", "하나", "인원", "메뉴"],
+          "compliment": "🎉 인원수와 메뉴를 또박또박 명확하게 전달한 완벽한 주문 표현입니다!",
+          "complimentTranslations": {
+            "en": "Flawless ordering! Clearly stating party size and specific dishes ensures accurate service.",
+            "vi": "Cách gọi món hoàn hảo! Nêu rõ số lượng người và tên món ăn giúp phục vụ chính xác nhanh chóng.",
+            "zh": "非常标准清晰的点餐！人数和餐品交代得清清楚楚，店家能够迅速出餐。",
+            "ja": "人数と料理名をハッキリと伝えた完璧な注文フレーズです！"
+          }
+        },
+        {
+          "step": 2,
+          "targetPhrase": "저기요, 시원한 물 좀 주시고 김치 더 리필해 주세요.",
+          "romanization": "Jeo-gi-yo, si-won-han mul jom ju-si-go gim-chi deo ri-pil-hae ju-se-yo.",
+          "positiveKeywords": ["저기요", "물", "김치", "리필", "더", "주세요", "사장님"],
+          "compliment": "👏 한국 식당의 무료 반찬 리필 문화를 잘 이해하고 정중하게 요청하셨습니다!",
+          "complimentTranslations": {
+            "en": "Polite and culturally savvy! Great use of 'Jeogiyo' and knowing Korean side dish refill etiquette.",
+            "vi": "Rất lịch sự và am hiểu văn hóa gọi thêm kim chi/nước lọc miễn phí tại quán ăn Hàn Quốc!",
+            "zh": "非常礼貌！熟练运用'Jeogiyo'并深谙韩国小菜免费续加的就餐文化。",
+            "ja": "店員さんを丁重に呼び、無料のおかわり文化をスマートに活用した素晴らしい表現です。"
+          }
+        }
+      ],
+      "tabooKeywords": [
+        {
+          "words": ["야", "너", "빨리빨리", "이봐", "어이", "돈내놔"],
+          "warningType": "rude_language",
+          "feedbackKo": "⚠️ [반말/비존칭 주의] 직원을 부를 때 '야'나 '이봐' 같은 반말을 쓰면 큰 결례가 됩니다. 테이블의 호출 벨을 누르거나 공손하게 '저기요~' 또는 '사장님~'이라고 불러주세요.",
+          "feedbackEn": "⚠️ [Politeness Alert] Never use rude slang like 'Hey you' (야/이봐). Press the table call bell or say 'Jeogiyo~' or 'Sajangnim~' politely.",
+          "feedbackVi": "⚠️ [Tránh nói trống không] Đừng gọi nhân viên bằng 'Này' hay lời lẽ cộc lốc. Hãy bấm chuông gọi bàn hoặc gọi lịch sự 'Jeogiyo~' (Anh/Chị ơi).",
+          "feedbackZh": "⚠️ [切忌失礼呼唤] 叫服务员时切忌使用'喂'或不礼貌平语。请按桌铃或礼貌称呼'저기요~'（劳驾）或'사장님~'（老板）。"
+        }
+      ]
+    }
+  }
+}

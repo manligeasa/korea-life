@@ -1,0 +1,6 @@
+{
+  "name": "한국생활 보석상자 (Korea Life Guide)",
+  "description": "외국인과 정착민을 위한 한국생활 필수 정보, 출입국·비자, 주거·분리수거, 긴급연락처, 정착 체크리스트를 담은 모바일 최적화 오프라인 가이드",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

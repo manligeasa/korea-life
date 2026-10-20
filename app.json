@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "한국생활 보석상자",
+    "slug": "korea-life-guide",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/icon.svg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./public/icon.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.korealife.guide"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./public/pwa-192x192.png",
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.korealife.guide"
+    },
+    "web": {
+      "favicon": "./public/favicon.ico"
+    },
+    "extra": {
+      "description": "외국인과 정착민을 위한 한국생활 필수 오프라인 가이드북",
+      "offlineOnly": true
+    }
+  }
+}

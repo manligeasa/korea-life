@@ -1,0 +1,442 @@
+[
+  {
+    "id": "rq-1",
+    "category": "funeral",
+    "categoryNameKo": "장례 예절 (상례)",
+    "categoryNameEn": "Funeral Etiquette",
+    "questionKo": "한국 장례식장(빈소)에서 고인의 영정(사진)을 향해 올리는 큰절의 올바른 횟수는 무엇일까요?",
+    "questionEn": "What is the correct number of deep bows to the deceased's portrait at a Korean funeral?",
+    "questionTranslations": {
+      "vi": "Số lần lạy trước linh cữu người đã khuất tại đám tang Hàn Quốc là bao nhiêu?",
+      "zh": "在韩国灵堂吊唁时，向逝者遗像行大礼叩首的正确次数是？",
+      "ja": "韓国の葬儀で故人の遺影に向かって行うお辞儀（クンジョル）の回数は？",
+      "fil": "Ilang malalim na yukod ang nararapat sa larawan ng yumao sa burol sa Korea?",
+      "km": "តើត្រូវគំនាប់គោរពសពប៉ុន្មានដងនៅមុខរូបថតសពក្នុងពិធីបុណ្យសពកូរ៉េ?",
+      "uz": "Koreys motam marosimida marhum suratiga necha marta taʼzim qilinadi?",
+      "ne": "कोरियन मलामीमा मृतकको तस्बिर अगाडि कति पटक झुकेर ढोग्नुपर्छ?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "큰절 1번",
+        "textEn": "1 deep bow"
+      },
+      {
+        "id": "2",
+        "textKo": "큰절 2번 후 가벼운 반절(목례) 1번",
+        "textEn": "2 deep bows followed by 1 slight half-bow"
+      },
+      {
+        "id": "3",
+        "textKo": "큰절 3번",
+        "textEn": "3 deep bows"
+      },
+      {
+        "id": "4",
+        "textKo": "큰절 4번",
+        "textEn": "4 deep bows"
+      }
+    ],
+    "correctAnswerId": "2",
+    "explanationKo": "산 사람에게는 1번 절을 하지만, 돌아가신 고인에게는 2번 큰절(이배, 二拜)을 올린 뒤 고개 숙여 가볍게 1번 반절(목례)을 올리는 것이 정석 예절입니다. 이후 상주와 마주 서서는 맞절 1번을 합니다. (종교가 기독교인 경우 절 대신 단정히 서서 묵념이나 기도를 올려도 무방합니다.)",
+    "explanationEn": "While living persons receive 1 bow, the deceased receives two deep bows followed by 1 slight half-bow. Afterward, exchange 1 bow with the chief mourner. (Silent prayer is acceptable for Christians).",
+    "dancheongTipKo": "💡 전통 상식: 산 사람(설날 세배 등)에게는 1배, 돌아가신 분(영정, 제사)에게는 2배를 올립니다.",
+    "dancheongTipEn": "💡 Tradition rule: 1 bow for living elders, 2 bows for the deceased."
+  },
+  {
+    "id": "rq-2",
+    "category": "funeral",
+    "categoryNameKo": "장례 예절 (상례)",
+    "categoryNameEn": "Funeral Etiquette",
+    "questionKo": "장례식장에서 상주(유가족)와 맞절 후 건네는 가장 품격 있고 올바른 위로의 말은 무엇일까요?",
+    "questionEn": "What is the most respectful condolence expression to say to the chief mourner?",
+    "questionTranslations": {
+      "vi": "Lời chia buồn trang trọng và đúng mực nhất với gia quyến tại đám tang là gì?",
+      "zh": "在丧礼上与丧主对拜后，最得体庄重的慰问词是？",
+      "ja": "喪主と一礼を交わした後に伝える最も適切なお悔やみの言葉は？",
+      "fil": "Ano ang pinakamagandang sabihin sa pamilya ng namatayan?",
+      "km": "តើពាក្យរំលែកទុក្ខដ៏សមរម្យបំផុតដែលត្រូវនិយាយទៅកាន់ម្ចាស់បុណ្យគឺអ្វី?",
+      "uz": "Motam egasiga bildiriladigan eng to‘g‘ri hamdardlik so‘zi qaysi?",
+      "ne": "किरियापुत्रीलाई समवेदना दिँदा सबैभन्दा उपयुक्त वाक्य कुन हो?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "진심으로 축하드립니다.",
+        "textEn": "Congratulations from my heart."
+      },
+      {
+        "id": "2",
+        "textKo": "안녕하세요, 오랜만에 뵙네요!",
+        "textEn": "Hello, nice to see you after a long time!"
+      },
+      {
+        "id": "3",
+        "textKo": "삼가 고인의 명복을 빕니다.",
+        "textEn": "Samga goin-ui myeongbogeul bimnida (I pray for the repose of the deceased)."
+      },
+      {
+        "id": "4",
+        "textKo": "파이팅! 기운 내서 힘차게 웃으세요.",
+        "textEn": "Fighting! Cheer up and smile brightly."
+      }
+    ],
+    "correctAnswerId": "3",
+    "explanationKo": "'삼가 고인의 명복을 빕니다'는 '겸손하고 조심스러운 마음으로(삼가) 돌아가신 분(고인)이 저승에서 복을 누리시기를(명복) 간절히 기원합니다(빕니다)'라는 뜻의 가장 정중하고 격식 있는 한국 전통 조문 인사말입니다. 상주에게 '안녕하세요'나 '축하' 같은 밝은 인사를 건네는 것은 엄격한 결례입니다.",
+    "explanationEn": "'Samga goin-ui myeongbogeul bimnida' expresses deep humility and prayers for the soul's peaceful afterlife. Happy greetings or cheerleading words are strictly forbidden.",
+    "dancheongTipKo": "💡 위로의 추가 표현: '얼마나 상심이 크십니까', '좋은 곳으로 가셨을 것입니다'도 좋은 위로의 말입니다.",
+    "dancheongTipEn": "💡 Another phrase: 'Eolmana sangsim-i keusipnikka' (You must be in deep grief)."
+  },
+  {
+    "id": "rq-3",
+    "category": "funeral",
+    "categoryNameKo": "장례 예절 (상례)",
+    "categoryNameEn": "Funeral Etiquette",
+    "questionKo": "빈소에서 영정 앞에 향(香)을 피울 때, 향에 붙은 불꽃을 끄는 올바른 방법은 무엇일까요?",
+    "questionEn": "When lighting incense at an altar, how should you extinguish the flame?",
+    "questionTranslations": {
+      "vi": "Khi thắp hương trước linh cữu, cách dập lửa que hương đúng cách là gì?",
+      "zh": "在灵前敬香时，熄灭香上火苗的正确方式是？",
+      "ja": "お線香に火をつけた後、炎を消す正しい方法は？",
+      "fil": "Paano dapat patayin ang apoy ng insenso sa harap ng altar?",
+      "km": "តើត្រូវពន្លត់អណ្តាតភ្លើងធូបដោយរបៀបណា?",
+      "uz": "Tutunli tayoqchani yoqqandan so‘ng olovini qanday o‘chirish kerak?",
+      "ne": "धूप बालेपछि आगो कसरी निभाउनु पर्छ?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "입으로 힘껏 '후-' 불어서 끈다.",
+        "textEn": "Blow on it forcefully with your mouth."
+      },
+      {
+        "id": "2",
+        "textKo": "손바닥으로 가볍게 부채질하거나 향을 가볍게 흔들어 끈다.",
+        "textEn": "Wave your hand gently or shake the incense stick lightly."
+      },
+      {
+        "id": "3",
+        "textKo": "바닥에 비벼서 불을 끈다.",
+        "textEn": "Rub it against the floor to put it out."
+      },
+      {
+        "id": "4",
+        "textKo": "물잔에 향을 담가 끈다.",
+        "textEn": "Dip the incense stick in water."
+      }
+    ],
+    "correctAnswerId": "2",
+    "explanationKo": "제사나 장례식에서 신성한 제단이나 영정 앞에 바치는 불꽃을 사람의 입김으로 끄는 것은 부정을 탄다고 여겨 큰 결례로 여깁니다. 따라서 불꽃은 절대로 입으로 불지 않고, 손바닥을 부채처럼 살랑살랑 흔들거나 향을 위아래로 가볍게 흔들어 바람으로 자연스럽게 꺼야 합니다.",
+    "explanationEn": "Blowing with human breath on sacred altar incense is considered disrespectful in Korean ancestral tradition. Always wave your palm gently or wave the stick to put out the flame.",
+    "dancheongTipKo": "💡 헌화(국화꽃) 예절: 꽃송이가 영정(고인) 쪽을 향하도록 꽃줄기를 잡고 공손히 올려놓습니다.",
+    "dancheongTipEn": "💡 Flower offering: Place the white chrysanthemum blossom facing toward the deceased's portrait."
+  },
+  {
+    "id": "rq-4",
+    "category": "common",
+    "categoryNameKo": "경조사 공통 예절",
+    "categoryNameEn": "General Rites Etiquette",
+    "questionKo": "한국 전통에서 결혼식 축의금(祝儀金)이나 장례식 부의금(賻儀金) 금액을 정할 때 따르는 일반적인 숫자의 원칙은?",
+    "questionEn": "What is the traditional numeric rule when preparing cash gift envelopes in Korea?",
+    "questionTranslations": {
+      "vi": "Nguyên tắc truyền thống khi chuẩn bị tiền mừng cưới hoặc phúng viếng tại Hàn Quốc là gì?",
+      "zh": "在韩国准备红白事礼金金额时，通常遵循的传统数字原则是？",
+      "ja": "韓国の結婚式（祝儀）や葬儀（香典）の金額を決める際の伝統的な数字のルールは？",
+      "fil": "Ano ang tradisyunal na tuntunin sa halaga ng pera sa sobre sa Korea?",
+      "km": "តើគោលការណ៍លេខប្រពៃណីសម្រាប់ប្រាក់ចំណងដៃ ឬបុណ្យសពនៅកូរ៉េគឺជាអ្វី?",
+      "uz": "To‘y yoki taʼziya puli berishda anʼanaviy raqamlar qoidasi qanday?",
+      "ne": "विवाह र मलामीको खाममा पैसा हाल्दा कुन संख्याको नियम मानिन्छ?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "숫자 4(사망을 뜻함)가 들어간 4만원, 14만원을 낸다.",
+        "textEn": "Amounts containing number 4 like 40k or 140k."
+      },
+      {
+        "id": "2",
+        "textKo": "2만, 4만, 6만, 8만원 등 무조건 짝수로 맞춘다.",
+        "textEn": "Even numbers like 20k, 40k, 60k."
+      },
+      {
+        "id": "3",
+        "textKo": "동전으로만 봉투를 가득 채운다.",
+        "textEn": "Fill the envelope only with coins."
+      },
+      {
+        "id": "4",
+        "textKo": "3만, 5만, 7만, 10만, 15만원 등 홀수(양의 기운) 또는 10만 단위로 낸다.",
+        "textEn": "Odd numbers (30k, 50k, 70k) or 100k increments based on Yang energy."
+      }
+    ],
+    "correctAnswerId": "4",
+    "explanationKo": "한국의 전통 음양오행 사상에서 홀수(1, 3, 5, 7, 9)는 밝고 긍정적인 '양(陽)의 기운'을 뜻하므로 경조사비는 전통적으로 3만, 5만, 7만 등 홀수 금액을 냅니다. 숫자 10은 꽉 찬 완성의 숫자로 여겨져 10만, 15만, 20만원 단위로 올라갑니다. 단, 한자의 죽을 사(死)와 발음이 같은 숫자 4(4만원 등)는 절대 피합니다.",
+    "explanationEn": "Korean tradition associates odd numbers (3, 5, 7) with positive Yang energy. 10 represents a full, perfect number. Never give amounts containing 4 (which sounds like death).",
+    "dancheongTipKo": "💡 봉투 뒷면: 왼쪽 아래에 본인의 이름과 소속(직장, 동문)을 세로로 단정히 적습니다.",
+    "dancheongTipEn": "💡 Envelope back: Write your name and company/school vertically in the bottom-left corner."
+  },
+  {
+    "id": "rq-5",
+    "category": "wedding",
+    "categoryNameKo": "결혼 예절 (혼례)",
+    "categoryNameEn": "Wedding Etiquette",
+    "questionKo": "결혼식에 참석하는 하객(손님)으로서 가장 주의해야 할 복장(드레스코드) 예절은 무엇일까요?",
+    "questionEn": "What is the most critical dress code etiquette for wedding guests in Korea?",
+    "questionTranslations": {
+      "vi": "Phép lịch sự về trang phục quan trọng nhất khi đi dự đám cưới tại Hàn Quốc là gì?",
+      "zh": "作为宾客参加韩国婚礼时，最需要严格遵守的着装禁忌是？",
+      "ja": "韓国の結婚式に参列する際、ゲストが最も避けるべき服装マナーは？",
+      "fil": "Ano ang dapat iwasang suotin ng bisita sa kasalan sa Korea?",
+      "km": "តើសម្លៀកបំពាក់បែបណាដែលភ្ញៀវគួរចៀសវាងពេលចូលរួមមង្គលការនៅកូរ៉េ?",
+      "uz": "Koreys to‘yiga borganda mehmonlar qanday kiyinishdan saqlanishi kerak?",
+      "ne": "विवाहमा जाँदा पाहुनाले कस्तो लुगा लगाउनबाट बच्नुपर्छ?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "결혼식에는 무조건 운동복과 슬리퍼를 착용해야 한다.",
+        "textEn": "Must wear tracksuits and flip-flops."
+      },
+      {
+        "id": "2",
+        "textKo": "깔끔하고 차분한 네이비(감색)나 베이지색 세미 정장을 입으면 안 된다.",
+        "textEn": "Never wear neat navy or beige semi-formal suits."
+      },
+      {
+        "id": "3",
+        "textKo": "신부의 웨딩드레스와 색상이 겹치는 '올화이트(새하얀) 원피스'는 피한다.",
+        "textEn": "Avoid wearing all-white dresses that clash with the bride's white gown."
+      },
+      {
+        "id": "4",
+        "textKo": "선글라스를 착용하고 모자를 푹 눌러써야 한다.",
+        "textEn": "Must wear dark sunglasses and pulled-down hats."
+      }
+    ],
+    "correctAnswerId": "3",
+    "explanationKo": "결혼식의 주인공은 신랑과 신부이며, 특히 신부의 순백 웨딩드레스가 가장 돋보여야 합니다. 하객이 새하얀 흰색 원피스나 밝은 흰 옷을 입으면 사진 촬영 시 신부의 시선을 빼앗는 결례가 되므로(이른바 '민폐 하객'), 단정한 네이비, 차콜 그레이, 파스텔톤, 베이지색 등의 세미 정장이 가장 좋습니다.",
+    "explanationEn": "The bride in her white wedding gown is the star of the ceremony. Wearing an all-white dress steals attention from the bride in photos and is a major faux pas.",
+    "dancheongTipKo": "💡 식권 수령: 축의금 접수대에서 봉투를 전달하고 인원수에 맞게 연회장 식권을 받습니다.",
+    "dancheongTipEn": "💡 Meal tickets: Hand over your envelope at the reception desk to receive buffet meal tickets."
+  },
+  {
+    "id": "rq-6",
+    "category": "funeral",
+    "categoryNameKo": "장례 예절 (상례)",
+    "categoryNameEn": "Funeral Etiquette",
+    "questionKo": "장례식장 식사실(접객실)에서 조문객들이 식사하거나 음료를 마실 때 엄격히 금지되는 행동은?",
+    "questionEn": "What behavior is strictly forbidden when dining at a funeral hall reception room?",
+    "questionTranslations": {
+      "vi": "Hành vi nào bị nghiêm cấm khi ăn uống tại phòng khách đám tang Hàn Quốc?",
+      "zh": "在殡仪馆用餐室就餐或饮酒时，绝对禁止的行为是？",
+      "ja": "葬儀の食事処で食事や飲酒をする際、固く禁じられている行為は？",
+      "fil": "Ano ang mahigpit na ipinagbabawal habang kumakain sa burol?",
+      "km": "តើសកម្មភាពណាដែលត្រូវបានហាមឃាត់យ៉ាងតឹងរ៉ឹងពេលទទួលទានអាហារនៅកន្លែងបុណ្យសព?",
+      "uz": "Taʼziya xonasida ovqatlanish yoki ichimlik ichish paytida nima qatʼiyan man etiladi?",
+      "ne": "मलामीको भोजन कक्षमा खाना खाँदा वा पिउँदा के गर्न कडा मनाही छ?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "상주에게 식사 맛있게 먹었다고 감사 인사를 전하는 행동",
+        "textEn": "Thanking the family quietly for the warm meal."
+      },
+      {
+        "id": "2",
+        "textKo": "소리 내지 않고 조용히 국밥을 먹는 행동",
+        "textEn": "Quietly having soup without making loud noises."
+      },
+      {
+        "id": "3",
+        "textKo": "식사를 마친 후 그릇을 깔끔히 정리하는 행동",
+        "textEn": "Neatly tidying dishes after finishing."
+      },
+      {
+        "id": "4",
+        "textKo": "잔을 부딪치며 '건배!' 또는 '위하여!'를 외치는 행동",
+        "textEn": "Clinking glasses and shouting 'Cheers!' or 'Geonbae!'"
+      }
+    ],
+    "correctAnswerId": "4",
+    "explanationKo": "장례식장은 유가족의 비통한 슬픔을 함께 나누는 자리입니다. 식사실에서 술이나 음료를 마실 때 기쁨을 축하하듯 잔을 부딪치며 '건배'나 '위하여'를 외치는 것은 유가족에게 크나큰 상처를 주는 결례입니다. 술잔을 부딪치지 않고 각자 조용히 마시는 것이 한국의 장례 식사 예절입니다.",
+    "explanationEn": "Funerals are solemn occasions of mourning. Clinking glasses or shouting toasts like 'Geonbae' (Cheers) is extremely disrespectful. Drink quietly without clinking.",
+    "dancheongTipKo": "💡 장례식 육개장: 붉은 고춧가루 국물이 나쁜 잡귀를 쫓고 조문객의 피로를 푼다는 유래가 있습니다.",
+    "dancheongTipEn": "💡 Yukgaejang soup: The warm red spicy soup is traditionally believed to ward off misfortune."
+  },
+  {
+    "id": "rq-7",
+    "category": "birthday",
+    "categoryNameKo": "첫돌 예절 (돌잔치)",
+    "categoryNameEn": "First Birthday (Doljanchi)",
+    "questionKo": "한국의 아기 첫돌 잔치(돌잔치)에서 아이가 미래를 점치는 '돌잡이' 때, '명주실(실타래)'을 잡으면 무엇을 상징할까요?",
+    "questionEn": "At a Korean 1st birthday party (Doljanchi), what does picking 'thread (sil)' symbolize during Doljabi?",
+    "questionTranslations": {
+      "vi": "Trong nghi thức bắt đồ Doljabi thôi nôi, bé bốc trúng 'cuộn chỉ' mang ý nghĩa gì?",
+      "zh": "在韩国一周岁抓周仪式(Doljabi)中，宝宝抓到'长寿丝线'代表什么吉祥寓意？",
+      "ja": "韓国の満1歳の誕生祝い（トルチャンチ）の選び取りで、「糸」を掴むと何を意味しますか？",
+      "fil": "Ano ang ibig sabihin kapag kinuha ng bata ang 'sinulid' sa Doljabi?",
+      "km": "ក្នុងពិធីចាប់របស់របរ Doljabi តើការចាប់បាន 'អំបោះ' តំណាងឱ្យអ្វី?",
+      "uz": "Doljabi marosimida bola 'ip'ni tanlasa, bu nimani anglatadi?",
+      "ne": "दोलजान्छीमा बच्चाले 'धागो' समात्यो भने त्यसको अर्थ के हुन्छ?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "무병장수 (아프지 않고 건강하게 오래 삶)",
+        "textEn": "Longevity and vibrant health without illness."
+      },
+      {
+        "id": "2",
+        "textKo": "세계적인 백만장자 부자",
+        "textEn": "Becoming a billionaire."
+      },
+      {
+        "id": "3",
+        "textKo": "국가대표 축구선수",
+        "textEn": "Becoming a national soccer athlete."
+      },
+      {
+        "id": "4",
+        "textKo": "법관이나 판사",
+        "textEn": "Becoming a judge or lawyer."
+      }
+    ],
+    "correctAnswerId": "1",
+    "explanationKo": "돌잡이에서 끊어지지 않고 길게 이어진 '명주실타래'는 아기가 잔병치레 없이 길고 건강하게 살기를 바라는 '무병장수(無病長壽)'를 상징합니다. (돈은 부유함, 연필/붓은 학자나 문필가, 청진기는 의사, 판사봉은 법조인, 마이크는 방송인/연예인을 상징합니다.)",
+    "explanationEn": "Long unbroken thread symbolizes a long, healthy life (longevity). Money represents wealth, a pencil represents scholarship, and a stethoscope represents a doctor.",
+    "dancheongTipKo": "💡 돌잡이 응원: 아이가 물건을 집어 올릴 때 하객들은 큰 박수와 환호로 아이의 앞날을 축복합니다.",
+    "dancheongTipEn": "💡 Cheers: Guests applaud enthusiastically when the child picks up a favorite item."
+  },
+  {
+    "id": "rq-8",
+    "category": "birthday",
+    "categoryNameKo": "첫돌 예절 (돌잔치)",
+    "categoryNameEn": "First Birthday (Doljanchi)",
+    "questionKo": "한국에서 친척이나 가까운 지인이 아기의 첫돌(돌잔치)을 축하할 때 전통적으로 가장 많이 선물해 온 귀금속은?",
+    "questionEn": "What traditional precious metal gift is commonly presented for a Korean baby's first birthday?",
+    "questionTranslations": {
+      "vi": "Món quà trang sức truyền thống phổ biến nhất được tặng trong dịp thôi nôi bé ở Hàn Quốc là gì?",
+      "zh": "在韩国，亲友祝贺宝宝一周岁生日时，最具有代表性的传统贵金属礼物是？",
+      "ja": "韓国で赤ちゃんの満1歳の誕生日に親族や知人が伝統的に贈る貴金属は？",
+      "fil": "Ano ang tradisyunal na gintong regalo para sa unang kaarawan ng bata sa Korea?",
+      "km": "តើកាដូលោហៈធាតុមានតម្លៃបុរាណអ្វីដែលគេនិយមជូនក្នុងថ្ងៃខួបកំណើត ១ ឆ្នាំ?",
+      "uz": "Bolaning 1 yoshlik to‘yida yaqinlar anʼanaviy ravishda nima sovg‘a qilishadi?",
+      "ne": "बच्चाको पहिलो जन्मदिनमा आफन्तले दिने परम्परागत बहुमूल्य उपहार के हो?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "다이아몬드 목걸이",
+        "textEn": "Diamond necklace"
+      },
+      {
+        "id": "2",
+        "textKo": "은으로 만든 열쇠고리",
+        "textEn": "Silver keychain"
+      },
+      {
+        "id": "3",
+        "textKo": "순금 돌반지 (금반지)",
+        "textEn": "Pure 24k Gold Baby Ring (Dol-banji)"
+      },
+      {
+        "id": "4",
+        "textKo": "동전 지갑",
+        "textEn": "Coin purse"
+      }
+    ],
+    "correctAnswerId": "3",
+    "explanationKo": "한국에서는 예로부터 아기가 세상에 태어나 첫돌을 맞이하면 변하지 않는 가치와 건강한 번영을 기원하며 순금으로 된 '돌반지(보통 1돈=3.75g 또는 반 돈)'를 아기 손가락에 끼워주는 따뜻한 전통 풍습이 있습니다. 요즘에는 금반지 외에도 현금 봉투나 아기 옷 등을 선물하기도 합니다.",
+    "explanationEn": "Gifting a pure 24k gold baby ring (Dol-banji) symbolizes enduring value, good health, and future prosperity for the growing child.",
+    "dancheongTipKo": "💡 돌 반지 중량: 전통적으로 순금 1돈(3.75g) 또는 반 돈(1.875g)으로 제작됩니다.",
+    "dancheongTipEn": "💡 Weight: Traditionally 1 don (3.75g) of pure gold."
+  },
+  {
+    "id": "rq-9",
+    "category": "ancestral",
+    "categoryNameKo": "제사 및 차례 예절",
+    "categoryNameEn": "Ancestral Rites (Jesa & Charye)",
+    "questionKo": "설날이나 추석 명절 아침에 조상님을 기리며 지내는 제사를 무엇이라고 부를까요?",
+    "questionEn": "What is the morning ancestral memorial ceremony held on Seollal or Chuseok called?",
+    "questionTranslations": {
+      "vi": "Nghi lễ cúng tổ tiên vào sáng ngày Tết Seollal hoặc Trung thu Chuseok được gọi là gì?",
+      "zh": "在韩国春节或中秋节早晨，全家共同祭奠历代祖先的传统祭礼叫作？",
+      "ja": "お正月や秋夕の朝、先祖を敬って行われる簡素化された法事・祭礼の名前は？",
+      "fil": "Ano ang tawag sa seremonya sa umaga ng bagong taon para sa mga ninuno sa Korea?",
+      "km": "តើពិធីសែនដូនតានៅពេលព្រឹកថ្ងៃចូលឆ្នាំ ឬបុណ្យភ្ជុំកូរ៉េហៅថាអ្វី?",
+      "uz": "Seollal yoki Chuseok bayrami ertalabida o‘tgan ota-bobolarga atab o‘tkaziladigan marosim nima deb ataladi?",
+      "ne": "सललाल वा छुसकको बिहान पितृहरूको सम्झनामा गरिने पूजालाई के भनिन्छ?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "기제사 (忌祭祀)",
+        "textEn": "Gijesa (Annual Death Anniversary Rite)"
+      },
+      {
+        "id": "2",
+        "textKo": "차례 (茶禮)",
+        "textEn": "Charye (Morning Holiday Ancestral Rite)"
+      },
+      {
+        "id": "3",
+        "textKo": "세배 (歲拜)",
+        "textEn": "Sebae (New Year Bow to living elders)"
+      },
+      {
+        "id": "4",
+        "textKo": "돌잡이",
+        "textEn": "Doljabi (Baby picking ritual)"
+      }
+    ],
+    "correctAnswerId": "2",
+    "explanationKo": "설날 아침(떡국 차림)이나 추석 아침(송편 차림)에 온 가족이 모여 조상님께 감사의 마음을 올리는 명절 제례를 '차례(茶禮)'라고 부릅니다. 조상님이 돌아가신 기일(돌아가신 날 밤)에 지내는 제사는 '기제사(忌祭祀)'라고 구분하여 부릅니다.",
+    "explanationEn": "Ancestral rites held on holiday mornings (Seollal with rice cake soup, Chuseok with Songpyeon) are called 'Charye'. Rites held on the night of an ancestor's passing are called 'Gijesa'.",
+    "dancheongTipKo": "💡 음복(飮福): 제사가 끝난 후 제사상에 올린 음식과 술을 온 가족이 나누어 먹으며 조상의 복을 나누는 것을 말합니다.",
+    "dancheongTipEn": "💡 Eumbok: Sharing the blessed food and drinks among family members after the ceremony."
+  },
+  {
+    "id": "rq-10",
+    "category": "common",
+    "categoryNameKo": "관혼상제 상식 (수연례)",
+    "categoryNameEn": "60th Jubilee & Longevity",
+    "questionKo": "태어난 해의 간지(60갑자)가 60년 만에 다시 돌아오는 만 60세(한국 나이 61세)를 기념하는 장수 축하 잔치는?",
+    "questionEn": "What is the traditional 60th birthday jubilee celebration called in Korea?",
+    "questionTranslations": {
+      "vi": "Lễ mừng thọ kỷ niệm 60 tuổi (tròn 60 hoa giáp) trong văn hóa Hàn Quốc gọi là gì?",
+      "zh": "人历经六十花甲再次轮回，庆祝满60周岁(虚岁61岁)的长寿宴席叫作？",
+      "ja": "60干支が一巡する満60歳を祝う、韓国の長寿祝いの宴を何と呼びますか？",
+      "fil": "Ano ang tawag sa pagdiriwang ng ika-60 kaarawan sa Korea?",
+      "km": "តើពិធីបុណ្យចម្រើនព្រះជន្មគម្រប់ ៦០ ឆ្នាំនៅកូរ៉េហៅថាអ្វី?",
+      "uz": "60 yillik yubiley sharafiga o‘tkaziladigan anʼanaviy bayram qanday ataladi?",
+      "ne": "६० वर्ष पुगेको अवसरमा गरिने दीर्घायु उत्सवलाई के भनिन्छ?"
+    },
+    "options": [
+      {
+        "id": "1",
+        "textKo": "백일잔치 (태어난 지 100일)",
+        "textEn": "Baek-il (100 days after birth)"
+      },
+      {
+        "id": "2",
+        "textKo": "칠순 (70세 고희)",
+        "textEn": "Chilsun (70th birthday)"
+      },
+      {
+        "id": "3",
+        "textKo": "팔순 (80세 산수)",
+        "textEn": "Palsun (80th birthday)"
+      },
+      {
+        "id": "4",
+        "textKo": "환갑(還甲) 또는 회갑(回甲)",
+        "textEn": "Hwangap or Hoegap (60th Birthday Jubilee)"
+      }
+    ],
+    "correctAnswerId": "4",
+    "explanationKo": "십간(10)과 십이지(12)가 결합한 60갑자가 한 바퀴를 돌아 태어난 해의 간지로 '돌아왔다(還)' 하여 '환갑(還甲)' 또는 '회갑(回甲)'이라고 부릅니다. 예전에는 환갑까지 장수하는 일이 드물어 온 마을이 성대한 잔치를 열었으며, 자녀들이 부모님께 큰절을 올리고 술을 바치는 헌수(獻壽)를 하였습니다.",
+    "explanationEn": "The completion of the 60-year sexagenary cycle is called Hwangap. Historically, reaching 60 was a rare longevity milestone celebrated with a grand banquet.",
+    "dancheongTipKo": "💡 칠순(70세)과 팔순(80세): 오늘날에는 평균수명이 길어져 환갑은 가족끼리 식사하고, 칠순이나 팔순에 큰 잔치나 여행을 보내드리는 경우가 많습니다.",
+    "dancheongTipEn": "💡 Modern trend: With longer lifespans, 70th (Chilsun) and 80th (Palsun) celebrations are now widely celebrated."
+  }
+]

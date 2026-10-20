@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-hanji-bg: #FAF7F2;
+    --color-hanji-surface: #FFFFFF;
+    --color-hanji-border: #E8E2D6;
+    
+    /* 단청 파스텔 컬러 시스템 */
+    --color-noerok: #3D836E; /* 뇌록 (Celadon Malachite) */
+    --color-noerok-soft: #EEF6F3;
+    --color-noerok-dark: #255849;
+
+    --color-vermilion: #DF684E; /* 주홍 (Soft Vermilion / Carmine) */
+    --color-vermilion-soft: #FDF1EE;
+    --color-vermilion-dark: #BA462E;
+
+    --color-indigo: #253342; /* 군청 (Deep Dancheong Slate) */
+    --color-indigo-soft: #EDF2F7;
+
+    --color-hwang: #D49B28; /* 황 (Soft Ochre Gold) */
+    --color-hwang-soft: #FCF6E8;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-hanji-bg);
+    color: #2D3748;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Pretendard", "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+}
+
+/* 은은한 전통 한지 질감 배경 클래스 */
+.bg-hanji-texture {
+  background-color: #FAF7F2;
+  background-image: url('/assets/hanji_texture.svg');
+  background-repeat: repeat;
+  background-size: 320px 320px;
+}
+
+/* Hide scrollbars for mobile horizontal tabs while keeping scrolling active */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Safe area padding for mobile notch/home bar */
+.safe-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 8px);
+}
